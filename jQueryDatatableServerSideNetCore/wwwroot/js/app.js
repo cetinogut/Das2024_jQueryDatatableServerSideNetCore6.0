@@ -114,7 +114,11 @@ $(document).ready(function () {
                 defaultContent: "<a class='btn btn-link' role='button' href='#' onclick='edit(this)'>Edit</a>",
                 orderable: false
             },
-        ]
+        ],
+        // Turkish localization
+        language: {
+            url: "https://cdn.datatables.net/plug-ins/1.10.21/i18n/Turkish.json"
+        }
     });
 });
 
