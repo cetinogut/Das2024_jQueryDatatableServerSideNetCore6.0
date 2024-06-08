@@ -12,5 +12,7 @@ namespace jQueryDatatableServerSideNetCore.Data
         }
 
         public DbSet<TestRegister> TestRegisters { get; set; }
+        public DbSet<TestTurkish> TestTurkishs { get; set; }
+
     }
 }

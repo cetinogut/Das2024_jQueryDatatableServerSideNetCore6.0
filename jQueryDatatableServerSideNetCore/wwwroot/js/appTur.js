@@ -60,7 +60,7 @@ $(document).ready(function () {
         searching: { regex: true },
         // Ajax Filter
         ajax: {
-            url: "/TestRegisters/LoadTable",
+            url: "/TestTurkish/LoadTable",
             type: "POST",
             contentType: "application/json",
             dataType: "json",
@@ -77,7 +77,7 @@ $(document).ready(function () {
             { data: "street" },
             { data: "phone" },
             { data: "zipCode" },
-            { data: "country" },
+            { data: "city" },
             { data: "notes" },
             {
                 data: "creationDate",
@@ -115,6 +115,10 @@ $(document).ready(function () {
                 orderable: false
             },
         ],
+        // Turkish localization
+        language: {
+            url: "https://cdn.datatables.net/plug-ins/1.10.21/i18n/Turkish.json"
+        }
     });
 });
 
